@@ -1,3 +1,5 @@
+import { clearImmediate } from "timers";
+
 let team1Name = "Team 1";
 let team1Score = 0;
 
@@ -6,7 +8,11 @@ let team2Score = 0;
 
 const main = () => {
    // select the team 1 add button
+   let button = document.querySelector(".button1");
+   console.log(button);
    // give it a click handler (a function)
+  //  
+  button.addEventListener("click", () =>);
    // in that handler,
    //    increment the score for that team
    //    find the element with score and update it to the new score
