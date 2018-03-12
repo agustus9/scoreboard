@@ -7,3 +7,43 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.board {
+  display: flex;
+  justify-content: center;
+}
+
+.board > h1 {
+  margin: 3em;
+  font-size: 32pt;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10em;
+}
+
+
+.team1,
+.team2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.team1,
+.team2 {
+  margin: 0em;
+}
+
+.team1 {
+  margin-top: 15em;
+  
+}
+
+/* .team2 {
+  display: flex;
+  flex-direction: column;
+} */
