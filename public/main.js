@@ -22,6 +22,7 @@ const main = () => {
   const team2Name = "Team2";
   let team2Score = 0;
 
+  const mybutton = document.querySelector(".button");
   const mybutton1 = document.querySelector(".button1");
   const mybutton2 = document.querySelector(".button2");
   const mybutton3 = document.querySelector(".button3");
@@ -30,8 +31,8 @@ const main = () => {
   const myscore2 = document.querySelector(".team2-result .team2");
 
 
-  mybutton.textContent = "Increase by one";
-  console.log(mybutton);
+  // mybutton.textContent = "Increase by one";
+  // console.log(mybutton);
 
   mybutton1.addEventListener("click", (event) => {
       team1Score += 1;
